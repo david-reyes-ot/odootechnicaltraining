@@ -14,6 +14,10 @@
     "category": "Training",
     "version": "0.1",
     "depends": ["base"],
-    "data": [],
-    "demo": ["demo/academy_demo.xml",]
+    "data": [
+        "views/course_views.xml"
+    ],
+    "demo": [
+        "demo/academy_demo.xml",
+    ]
 }
