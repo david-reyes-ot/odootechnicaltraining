@@ -5,6 +5,7 @@
         <record model="ir.ui.view" id="course_view_form">
             <field name="name">academy.course.form</field>
             <field name="model">academy.course</field>
+            <field name="priority" eval="2"/>
             <field name="arch" type="xml">
                 <form string="Course Form">
                     <sheet>
@@ -29,6 +30,7 @@
         <record model="ir.ui.view" id="course_view_list">
             <field name="name">academy.course.list</field>
             <field name="model">academy.course</field>
+            <field name="priority" eval="1"/>
             <field name="arch" type="xml">
                 <tree string="Course List">
                     <field name="name"/>
@@ -40,6 +42,7 @@
         <record model="ir.ui.view" id="course_view_search">
             <field name="name">academy.course.search</field>
             <field name="model">academy.course</field>
+            <field name="priority" eval="3"/>
             <field name="arch" type="xml">
                 <search>
                     <field name="name"/>
