@@ -20,7 +20,9 @@
         "views/academy_menuitems.xml",
         "security/academy_security.xml",
         "security/ir.model.access.csv",
-        "views/sale_views_inherit.xml"
+        "views/sale_views_inherit.xml",
+        "views/product_views_inherit.xml",
+        "wizard/sale_wizard_view.xml"
     ],
     "demo": [
         "demo/academy_demo.xml",
